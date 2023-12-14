@@ -23,8 +23,9 @@ body{
     flex-direction: column; 
     background-color: rgb(17, 24, 39);
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 1.3s,ease-in-out;
     overflow: hidden;
+    margin-right: 80%;
 }
 
 .box{
@@ -76,23 +77,14 @@ body{
     color: #fff;
 }
 
-.shell:nth-child(2) {
+.shell:nth-child(1) {
     background-color: rgb(243, 244, 246);
 }
-.shell:nth-child(2) .box:hover{
+.shell:nth-child(1) .box:hover{
     background-color: rgb(209, 213, 219);
     color: rgb(241, 159, 159);
 }
-.shell:nth-child(2) .box{
+.shell:nth-child(1) .box{
     color: #000;
 }
 
-.shell:nth-child(3) {
-    background-color: rgb(49,46,129);
-}
-.shell:nth-child(3) .box:hover{
-    background-color: rgb(67, 56, 202);
-}
-.shell:nth-child(3) .box{
-    color: rgb(140, 120, 240);
-} 
